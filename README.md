@@ -8,6 +8,6 @@ Api em construção.
 
 - CRUD de usuários, planos, jogos, pagamentos e apostas.
 - Api de pagamentos via pix.
-- Autenticação e autorização via tokens e refresh tokens.
-- Controle de acesso por cargo.
+- Autenticação via tokens e refresh tokens.
+- Autorização e controle de acesso por cargo.
 - Sistema de apostas com controle de atualização de saldo e recompensas.
