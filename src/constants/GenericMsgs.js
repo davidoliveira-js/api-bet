@@ -1,0 +1,30 @@
+module.exports = {
+  //user
+  UserNoCredits: 'user has no credits! add credits to acount',
+  UserWonBet: 'bet won! reward added to user credits',
+  UserLostBet: "bet lost! credits subtracted from the user's account",
+  UserExists: 'username already exists',
+  UserSuccessLogin: 'user logged in successfully',
+  IncorrectLogin: 'wrong user credentials',
+  UserLogout: 'user logged out',
+  NotAuth: 'this user is not authorized',
+  EmailVerifiedSuccess: 'email successfully verified',
+  EmailFailedVerify: 'email not verify',
+  EmailAlreadyVerified: 'email already verified',
+  //payment
+  PaymentSuccess: 'payment received',
+  PaymentFailed: 'payment not received',
+  //data
+  DataSuccessCreate: 'data created',
+  DataFailedCreate: 'data not created',
+  DataFound: 'data found',
+  DataNotFound: 'data not found',
+  DataSuccessUpdate: 'data updated',
+  DataFailedUpdate: 'data not updated',
+  DataSuccessDelete: 'data deleted',
+  DataFailedDelete: 'data not deleted',
+  FieldError: 'invalid input',
+  MissingFields: 'fill in all fields',
+  DataAlreadyExists: 'this name already exists',
+  StatusError: 'something went wrong',
+};

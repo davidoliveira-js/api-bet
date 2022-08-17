@@ -1,0 +1,44 @@
+{
+  "name": "api-bet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidoliveira-js/api-bet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidoliveira-js/api-bet/issues"
+  },
+  "homepage": "https://github.com/davidoliveira-js/api-bet#readme",
+  "dependencies": {
+    "accesscontrol": "^2.2.1",
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "consign": "^0.1.6",
+    "cookie": "^0.5.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.26.0",
+    "nodemailer": "^6.4.8",
+    "passport": "^0.6.0",
+    "passport-http-bearer": "^1.0.1",
+    "passport-local": "^1.0.0",
+    "pg": "^8.7.3",
+    "redis": "^3.0.2",
+    "sequelize": "^6.21.3",
+    "sequelize-cli": "^6.4.1",
+    "validator": "^13.7.0"
+  }
+}

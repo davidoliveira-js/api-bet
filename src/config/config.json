@@ -1,0 +1,31 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "Chatapp123",
+    "database": "api_bet",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "define" : {
+      "timestamps": true,
+      "underscored": true
+    }
+  },
+  "test": {
+    "username": "postgres",
+    "password": "Chatapp123",
+    "database": "api_bet",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "define" : {
+      "timestamps": true,
+      "underscored": true
+    }
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
