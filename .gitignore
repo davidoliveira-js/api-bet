@@ -2,4 +2,4 @@
 node_modules
 pendencias.txt
 package-lock.json
-./src/services/gerencianet/certs
+/src/services/gerencianet/certs
